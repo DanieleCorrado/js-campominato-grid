@@ -7,5 +7,27 @@
 }
 
 body {
-  background-color: violet;
+  background-color: rgb(127, 255, 212);
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#play-table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.square {
+  width: calc(100% / 10);
+  height: 60px;
+  border: 1px solid black;
+}
+
+.clicked {
+  background-color: skyblue;
 }
