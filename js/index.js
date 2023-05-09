@@ -10,7 +10,9 @@ form.addEventListener("submit", (e) =>{
 
   // Imposto il displey mode della griglia di gioco
 
-  document.getElementById("play-table").style.display = "flex";
+  document.getElementById("table").style.display = "flex";
+
+  document.getElementById("footer").style.display = "block";
 
   // Inizializzo la difficolta selezionata dal giocatore
 
@@ -64,6 +66,8 @@ form.addEventListener("submit", (e) =>{
 
       this.classList.add("clicked");
       value = this.innerHTML;
+
+      console.log(value);
 
     });
 

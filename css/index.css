@@ -6,13 +6,51 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(127, 255, 212);
-}
-
 .row {
   display: flex;
-  justify-content: flex-end;
+}
+
+header {
+  padding: 20px;
+}
+
+header.row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #logo {
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+}
+
+header h1 {
+  margin-left: 30px;
+}
+
+header span {
+  margin-right: 10px;
+}
+
+header select {
+  margin-right: 10px;
+}
+
+header button {
+  padding: 0 15px;
+}
+
+button, select {
+  border-radius: 5px;
+}
+
+main {
+  background-color: rgb(127, 255, 212);
+  padding: 30px;
+  display: none;
 }
 
 #play-table {
@@ -30,4 +68,12 @@ body {
 
 .clicked {
   background-color: skyblue;
+}
+
+footer {
+  display: none;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
 }
