@@ -10,6 +10,8 @@
   display: flex;
 }
 
+/* Regole header */
+
 header {
   padding: 20px;
 }
@@ -18,6 +20,8 @@ header.row {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Regole sezione sinistra header */
 
 header #logo {
   align-items: center;
@@ -35,6 +39,8 @@ header span {
   margin-right: 10px;
 }
 
+/* Regole sezione destra header */
+
 header select {
   margin-right: 10px;
 }
@@ -47,11 +53,15 @@ button, select {
   border-radius: 5px;
 }
 
+/* Regole main */
+
 main {
   background-color: rgb(127, 255, 212);
   padding: 30px;
   display: none;
 }
+
+/* Regole griglia */
 
 #play-table {
   display: flex;
@@ -59,6 +69,8 @@ main {
   width: 60%;
   margin: 0 auto;
 }
+
+/* Regole riguadri griglia */
 
 .square {
   width: calc(100% / 10);
@@ -69,6 +81,8 @@ main {
 .clicked {
   background-color: skyblue;
 }
+
+/* Regole footer */
 
 footer {
   display: none;

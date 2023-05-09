@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) =>{
 
   e.preventDefault();
 
-  // Imposto il displey mode della griglia di gioco
+  // Imposto il display mode della griglia di gioco
 
   document.getElementById("table").style.display = "flex";
 
